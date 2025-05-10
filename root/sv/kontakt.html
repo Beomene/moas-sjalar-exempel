@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Moas Sjalar</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Moas Sjalar</div>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="om.html">Om Moas Sjalar</a></li>
+                <li><a href="galleri.html">Galleri</a></li>
+                <li><a href="bast.html">Bäst i världen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="../en/index.html">English</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-content">
+            <div class="container contact-container">
+                <div class="contact-form">
+                    <h1>Kontakta Moa</h1>
+                    <p>Har du frågor om våra sjalar eller vill du beställa? Skicka ett meddelande till mig!</p>
+                    
+                    <form action="https://formspree.io/f/moa@business.se" method="POST">
+                        <div class="form-group">
+                            <label for="name">Ditt namn</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Din e-post</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Ditt meddelande</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="button">Skicka meddelande</button>
+                    </form>
+                </div>
+                
+                <div class="payment-info">
+                    <h2>Betalningsalternativ</h2>
+                    <div class="swish">
+                        <h3>SWISH</h3>
+                        <img src="../assets/swish-qr.png" alt="SWISH QR-kod" class="qr-code">
+                        <p>Scanna för att betala med SWISH</p>
+                        <p>Eller swisha till: 123-456 78 90</p>
+                    </div>
+                    <div class="other-payments">
+                        <h3>Andra betalningsmetoder</h3>
+                        <a href="https://paypal.com" target="_blank" class="payment-button">
+                            <img src="../assets/paypal-logo.png" alt="PayPal">
+                        </a>
+                        <a href="https://etsy.com" target="_blank" class="payment-button">
+                            <img src="../assets/etsy-logo.png" alt="Etsy">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Moas Sjalar | <a href="../en/index.html">Byt till engelska</a></p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

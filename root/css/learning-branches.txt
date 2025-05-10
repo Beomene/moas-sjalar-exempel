@@ -1,0 +1,30 @@
+### **Deliverables Checklist**  
+- [ ] All 5 scenes load with correct layers  
+- [ ] Text scrolls upward at 50% speed  
+- [ ] Stickers wrap text properly  
+- [ ] UI controls work (opacity/audio)  
+
+
+javascript  
+// FUTURE-FEATURES.js  
+const TRINKAREAD_4 = {  
+  coreUpgrades: [  
+    "Dynamic scene composer (drag-drop layers in UI)",  
+    "AI-assisted JSON generator ('Add mountain distal layer')",  
+    "Three.js hybrid mode (for 3D parallax)",  
+  ],  
+  trinkalookAdaptations: [  
+    "Graphic novel 'panel mode' (snap-scroll between blocks)",  
+    "Speech bubble proximity triggers",  
+    "Page-turn sound FX based on scroll velocity"  
+  ],  
+  wildcardIdeas: [  
+    "Let readers fork scenes via GitHub API",  
+    "Yly soda-bubble physics simulator",  
+    "CSS filter mixer for mood lighting"  
+  ]  
+};  
+```  
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Moa's Shawls</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Moa's Shawls</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="values.html">What's Best</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="../sv/index.html">Svenska</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-content">
+            <div class="container contact-container">
+                <div class="contact-form">
+                    <h1>Contact Moa</h1>
+                    <p>Have questions about our shawls or want to place an order? Send me a message!</p>
+                    
+                    <form action="https://formspree.io/f/moa@business.se" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="payment-info">
+                    <h2>Payment Options</h2>
+                    <div class="swish">
+                        <h3>SWISH</h3>
+                        <img src="../assets/swish-qr.png" alt="SWISH QR Code" class="qr-code">
+                        <p>Scan to pay with SWISH</p>
+                        <p>Or send to number: 123-456 78 90</p>
+                    </div>
+                    <div class="other-payments">
+                        <h3>Other Payment Methods</h3>
+                        <a href="https://paypal.com" target="_blank" class="payment-button">
+                            <img src="../assets/paypal-logo.png" alt="PayPal">
+                        </a>
+                        <a href="https://etsy.com" target="_blank" class="payment-button">
+                            <img src="../assets/etsy-logo.png" alt="Etsy">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Moa's Shawls | <a href="../sv/index.html">Switch to Swedish</a></p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
